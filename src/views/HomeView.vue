@@ -23,8 +23,8 @@
       <!-- about me text -->
       <div class="basis-3/6 text-base lg:text-xl" id="about-me">
         <p class="md:leading-8">
-          I am a Software Enginner, student, and life-long learner. My passion for
-          for Computer Science begin at the age of 9, when I  set out
+          I am a Software Engineer, student, and lifelong learner. My passion for
+          Computer Science began at the age of 9 when I set out
           to uncover how video games are made in hopes of forging one of my own. Today, I prize my
           curiosity and high standards for work as qualities that drive me to become a better
           engineer.
@@ -91,6 +91,7 @@
 
 <script setup lang="ts">
 import Skill from "../components/Skill.vue";
+
 import awsIcon from "../assets/icons/aws.svg";
 import cIcon from "../assets/icons/c.svg";
 import dockerIcon from "../assets/icons/docker.svg";

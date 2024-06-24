@@ -3,7 +3,7 @@
     <div class="md:px-4 lg:px-16 xl:px-44">
       <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">My Projects</h1>
       <p class="mt-2 text-sm md:text-base w-10/12 sm:w-8/12 lg:w-6/12">
-        Hobby projects I've pursued to fulfill a personal need and learn new
+        Hobby projects I've pursued to fulfill personal needs and learn new
         skills. Many of them are deployed and feature a link to the code on
         GitHub.
       </p>
@@ -12,7 +12,7 @@
       <Project
         :project-data="{
           title: `Tachy: Productivity Tracker`,
-          description: `Full stack web app that allows users to track simulatenous tasks and visualize productivity. Responsive site design and an authentication system ensure users can access their data from any device.`,
+          description: `Full stack web app that allows users to track simultaneous tasks and visualize productivity. Responsive site design and an authentication system ensure users can access their data from any device.`,
           link: 'https://tachy.pages.dev/',
           imgSrc: tachyDisplay,
           skills: [
@@ -72,9 +72,9 @@
 <script setup lang="ts">
 import Project from "../components/Project.vue";
 
-import csharpIcon from "../assets/icons/csharp.svg"
+import csharpIcon from "../assets/icons/csharp.svg";
 import firebaseIcon from "../assets/icons/firebase.svg";
-import flightSimDisplay from "../assets/flight-sim-display.jpg"
+import flightSimDisplay from "../assets/flight-sim-display.jpg";
 import gitIcon from "../assets/icons/git.svg";
 import mongodbIcon from "../assets/icons/mongodb.svg";
 import nodesjsIcon from "../assets/icons/nodejs.svg";
@@ -84,6 +84,6 @@ import sohamovDisplay from "../assets/sohamov-display.jpg";
 import tachyDisplay from "../assets/tachy-display.jpg";
 import tailwindIcon from "../assets/icons/tailwind.svg";
 import tensorflowIcon from "../assets/icons/tensorflow.svg";
-import unityIcon from "../assets/icons/unity.svg"
+import unityIcon from "../assets/icons/unity.svg";
 import vueIcon from "../assets/icons/vue.svg";
 </script>
